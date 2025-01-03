@@ -28,7 +28,7 @@ const Login = () => {
                     <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                 </div>
                
-                <button type="submit" className="btn-block mt-4 mb-2 pt-1 pb-1 SubmitBtn">Login</button>
+                <button type="submit" className="btn-block mt-4 mb-4 pt-2 pb-2 SubmitBtn">Login</button>
 
                 <Link>Forgot password ?</Link>
 

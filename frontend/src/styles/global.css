@@ -30,7 +30,7 @@ body {
 .LoginForm{
     font-size: 0.8rem;
     width: 60%;
-    margin-left: 28px;
+    margin-left: 6rem;
 }
 
 .LoginForm h1{
@@ -47,11 +47,21 @@ body {
     font-size: 0.8rem;
 }
 
+.LoginForm input:focus{
+    border-color: var(--theme_one);
+    box-shadow: none;
+}
+
 .SubmitBtn{
     color: #FFFF;
+    font-weight: 700;
     border: none;
     background-color: var(--theme_one);
     border-radius: 24px;
     width: 100%;
     outline: none;
+}
+
+.SubmitBtn:hover{
+    background-color: rgb(133, 63, 28);
 }
